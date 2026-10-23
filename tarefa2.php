@@ -57,11 +57,13 @@
         ii. peso ideal da mulher = (62,1 x altura) - 44,7 -->
 
         <?php
+            echo"<br>";
             echo "peso ideal de homem = (72,7 x altura) - 58";
             echo "<br>";
             echo "peso ideal da mulher = (62,1 x altura) - 44,7";
             echo "<br>";
-            echo "Com base nisso.. usando um exemplo de um home com 1 metro e 75 cm..";
+            echo "Com base nisso.. usando um exemplo de um homem com 1 metro e 75 cm..";
+            echo"<br>";
             echo"<br>";
             
             $altura = 1.75; 
@@ -79,7 +81,8 @@
     <br> // Inserir o doc para form e receber valores..
     <!-- A média é simples, soma-se os três valores e divide por 3. -->
 
-        <?php 
+        <?php
+            echo"<br>";
             $numero1 = 4; 
             $numero2 = 8; 
             $numero3 = 6; 
@@ -98,7 +101,7 @@
                     $menor = $numero3; 
                 } 
                 $media = ($numero1 + $numero2 + $numero3) / 3; 
-            echo "O maior numero e: " . $maior . "<br>"; 
+            echo "<br>O maior numero e: " . $maior . "<br>"; 
             echo "O menor numero e: " . $menor . "<br>"; 
             echo "A media e: " . round($media, 2);
         ?>
