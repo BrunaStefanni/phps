@@ -50,7 +50,7 @@
     <hr>
 
     <p>Construa um programa em PHP que calcule o peso ideal de uma pessoa.</p>
-    <br>
+    <br> //Aplicar form posteriormente
     <!-- Dados de entrada: altura e sexo. 
         Fórmulas para cálculo do peso:
         i. peso ideal de homem = (72,7 x altura) - 58
@@ -71,46 +71,36 @@
                     } else { $peso = (62.1 * $altura) - 44.7; 
                 } 
             echo "O peso calculado e: " . round($peso, 2) . " kg";
-
-
-
-            $metros = 12;
-            $decimetros = $metros * 10; 
-            $centimetros = $metros * 100; 
-            $milimetros = $metros * 1000; 
-
-            echo "Se eu tenho 12 metros...";
-            echo "<br>";
-            echo "<br>";
-            echo $metros . " metros correspondem a:<br>"; 
-            echo $decimetros . " decimetros<br>"; 
-            echo $centimetros . " centimetros<br>"; 
-            echo $milimetros . " milimetros";
         ?>
     
     <hr>
     
-    <p>Construa um programa em PHP que peça um valor entre 1 e 9, e mostre a tabuada desse numero.</p>
-    <br>
-    <!-- É preciso criar um ciclo de repetição de cálculo x10, 
-    começando em 1 e parando em 10, condições "for" and "if" -->
+    <p>Fazer um programa que recebe 3 valores e mostra o maior, o menor e a média</p>
+    <br> // Inserir o doc para form e receber valores..
+    <!-- A média é simples, soma-se os três valores e divide por 3. -->
 
         <?php 
-            $numero = 9;
-            
-            echo "Exemplo da tabuada de 9:";
-            echo "<br>";
-            echo "<br>";
-            
-            if ($numero >= 1 && $numero <= 9) { 
-                    for ($i = 1; $i <= 10; $i++) { $resultado = $numero * $i;
-                    echo $numero . " x " . $i . " = " . $resultado . "<br>"; 
+            $numero1 = 4; 
+            $numero2 = 8; 
+            $numero3 = 6; 
+            $maior = $numero1; 
+            $menor = $numero1; 
+                if ($numero2 > $maior) { 
+                    $maior = $numero2; 
                 } 
-                
-                } else { 
-                    echo "Por favor, escolha um numero entre 1 e 9."; 
+                if ($numero3 > $maior) { 
+                    $maior = $numero3; 
                 } 
-            
+                if ($numero2 < $menor) { 
+                    $menor = $numero2; 
+                } 
+                if ($numero3 < $menor) { 
+                    $menor = $numero3; 
+                } 
+                $media = ($numero1 + $numero2 + $numero3) / 3; 
+            echo "O maior numero e: " . $maior . "<br>"; 
+            echo "O menor numero e: " . $menor . "<br>"; 
+            echo "A media e: " . round($media, 2);
         ?>
     <hr>
     
