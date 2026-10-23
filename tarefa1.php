@@ -8,11 +8,20 @@
 </head>
 <body>
     <h1>Construindo Programas de Cálculos</h1>
-    <p>
-    </p>
+
+    <hr>
+
+    <p>Construa um programa em PHP para determinar a Área e o Perímetro de um quadrado.</p>
+    <br>
+    //área= lado*lado
+    //perímetro= soma de todos os lados, 4*lado
+
+
+
     
     <? 
     echo: "Hello World"; 
     ?>
+
 </body>
 </html>
