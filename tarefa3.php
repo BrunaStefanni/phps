@@ -7,7 +7,7 @@
 
 </head>
 <body>
-    <h1>While's</h1>
+    <h1>While's - Condição, instruções a executar</h1>
 
     <hr>
 
@@ -44,8 +44,44 @@
     
     <hr>
 
+    <p>Construa um programa em PHP que calcule a soma de todos os números inteiros de 1 até 100 (1 + 2 + 3 + ... + 100). 
+        No final, exibe o valor total acumulado (o resultado esperado é 5050).</p>
+    <br>
+    <!-- Somar oos núumeros inteiros de 1 a 100, utilizando uma variável para guardar a soma acumulada. -->
 
+        <?php
+            $i = 1;
+            $soma = 0;
 
+            while ($i <= 100){
+                $soma =$soma + $i;
+                $i++; // aqui está a aumentar o contador em 1
+            }
+            
+            echo "A soma total é: $soma";
+        ?>
+    
+    <hr>
+
+    <p>Construa um programa em PHP que peça um valor entre 1 e 9, e mostre a tabuada desse numero.</p>
+    <br>
+    <!-- A diferença do programa de tabuada que fizemos na tarefa 1 vai do "for" para "while". 
+     Definimos o contador inicial antes do ciclo. -->
+
+        <?php
+            $num = 5;
+            $i = 1;
+
+            while ($i <= 10) {
+                $resultado = $num * $i;
+
+                echo "$num x $i = $resultado <br>";
+                $i++;
+            }
+
+        ?>
+    
+    <hr>
     
 </body>
 
