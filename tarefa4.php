@@ -50,7 +50,7 @@
 
                 echo "Tentativa " . $tentativas . ":" . $numero . "<br>";
 
-            } while ($numero != $secreto); //conndição
+            } while ($numero != $secreto); //condição
 
             echo "<br>O número secreto foi: " . $secreto;
             echo "<br>O número de tentativas foi: " . $tentativas;
