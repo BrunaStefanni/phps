@@ -82,6 +82,10 @@
         ?>
     
     <hr>
+
+<footer>
+    <p>© 2026 Bruna Leite | Estudante Téc. Desenvolvimento Software</p>
+</footer>
     
 </body>
 
