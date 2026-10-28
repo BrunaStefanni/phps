@@ -12,6 +12,12 @@
             echo "contador: $i <br>";
         }
     ?>
+
+    // Como funciona o ciclo for em php:
+        
+    //      for (inicialização; condição; atualização) {
+    //          Instruções a executar
+    //      }
     
 </body>
 </html>
