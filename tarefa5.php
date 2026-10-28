@@ -63,7 +63,8 @@
         e exibir os primeiros 15 números da sequência de Fibonacci (onde cada 
         número é a soma dos dois anteriores: 0, 1, 1, 2, 3, 5, 8...).</p>
     <br>
-    <!-- --> 
+    <!-- A sequência de Fibonacci é uma sequência de números em que cada 
+     número é obtido somando os dois números anteriores. --> 
 
         <?php
             $a = 0;
