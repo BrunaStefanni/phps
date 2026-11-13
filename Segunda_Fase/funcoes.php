@@ -16,7 +16,7 @@
 
     
     // Funções para subtrair, multiplicar e dividir dois números
-    <?php
+    /* ?php
         include 'funcoes.php';
         echo "<br>";
         echo "A soma de 5 + 10 é: " . somar(5, 10);
@@ -26,7 +26,7 @@
         echo "A multiplicação de 4 * 6 é: " . multiplicar(4, 6);
         echo "<br>";
         echo "A divisão de 20 / 4 é: " . dividir(20, 4);
-    ?>
+    ? */
     
 </body>
 </html>
